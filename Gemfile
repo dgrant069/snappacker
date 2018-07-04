@@ -70,7 +70,7 @@ group :development, :test do
   gem 'pry-rails',                  '~> 0.3.2'
   gem 'faker',                      '~> 1.2.0'
   gem 'database_cleaner',           '~> 1.2.0'
-  gem 'selenium-webdriver',         '~> 2.39.0'
+  gem 'selenium-webdriver', '~> 2.39.0'
   gem 'qunit-rails',                '~> 0.0.7'
   # gem 'factory_girl_rails'
 end
