@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails',                        '4.1.0'
+gem 'rails', '5.2.4.4'
 
-gem 'sass-rails',                   '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.5'
 gem 'uglifier',                     '>= 1.3.0'
-gem 'coffee-rails',                 '~> 4.0.0'
-gem 'jquery-rails'
-gem 'figaro',                       '~> 0.7.0'
-gem 'devise',                       '~> 3.2.2'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'figaro', '~> 1.0.0'
+gem 'devise', '~> 4.4.2'
 gem 'omniauth',                     '~> 1.2.1'
 gem 'omniauth-facebook',            '~> 1.6.0'
 gem 'omniauth-google-oauth2',       '~> 0.2.2'
@@ -17,12 +17,12 @@ gem 'omniauth-google-oauth2',       '~> 0.2.2'
 # gem 'fog',
 # gem 'geocoder',
 # gem 'ember-rails',                  '~> 0.14.1'
-gem 'font-awesome-rails',           '~> 4.0.3'
+gem 'font-awesome-rails', '~> 4.7.0', '>= 4.7.0.4'
 gem 'nokogiri',                     '~> 1.6.1'
 gem 'mechanize' #,                   '~> 2.7.3'
 gem 'brakeman'
 gem 'minitest',                     '~> 5.3.3'
-gem 'minitest-rails',               '~> 2.0.0.beta1'
+gem 'minitest-rails', '~> 3.0.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
@@ -30,7 +30,7 @@ gem 'minitest-rails',               '~> 2.0.0.beta1'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 2.2.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -56,7 +56,7 @@ end
 
 
 group :test do
-  gem 'minitest-rails-capybara',    '~> 2.0.0.beta1'
+  gem 'minitest-rails-capybara', '~> 3.0.0.0'
   gem 'launchy',                    '~> 2.4.2'
   # gem 'turn',                       '~> 0.9.7'
   # gem 'minitest-focus',             '~> 1.1.0'
@@ -71,6 +71,6 @@ group :development, :test do
   gem 'faker',                      '~> 1.2.0'
   gem 'database_cleaner',           '~> 1.2.0'
   gem 'selenium-webdriver',         '~> 2.39.0'
-  gem 'qunit-rails',                '~> 0.0.7'
+  gem 'qunit-rails', '~> 0.0.7'
   # gem 'factory_girl_rails'
 end
