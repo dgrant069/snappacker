@@ -57,7 +57,7 @@ end
 
 group :test do
   gem 'minitest-rails-capybara',    '~> 2.0.0.beta1'
-  gem 'launchy',                    '~> 2.4.2'
+  gem 'launchy', '~> 2.4.2'
   # gem 'turn',                       '~> 0.9.7'
   # gem 'minitest-focus',             '~> 1.1.0'
   gem 'simplecov',                  :require => false
