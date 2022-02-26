@@ -18,7 +18,7 @@ gem 'omniauth-google-oauth2',       '~> 0.2.2'
 # gem 'geocoder',
 # gem 'ember-rails',                  '~> 0.14.1'
 gem 'font-awesome-rails',           '~> 4.0.3'
-gem 'nokogiri',                     '~> 1.6.1'
+gem 'nokogiri',                     '~> 1.13.2'
 gem 'mechanize' #,                   '~> 2.7.3'
 gem 'brakeman'
 gem 'minitest',                     '~> 5.3.3'
