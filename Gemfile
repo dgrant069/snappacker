@@ -18,7 +18,7 @@ gem 'omniauth-google-oauth2',       '~> 0.2.2'
 # gem 'geocoder',
 # gem 'ember-rails',                  '~> 0.14.1'
 gem 'font-awesome-rails',           '~> 4.0.3'
-gem 'nokogiri',                     '~> 1.6.1'
+gem 'nokogiri', '~> 1.13.4'
 gem 'mechanize' #,                   '~> 2.7.3'
 gem 'brakeman'
 gem 'minitest',                     '~> 5.3.3'
@@ -56,7 +56,7 @@ end
 
 
 group :test do
-  gem 'minitest-rails-capybara',    '~> 2.0.0.beta1'
+  gem 'minitest-rails-capybara', '~> 2.0.0.0'
   gem 'launchy',                    '~> 2.4.2'
   # gem 'turn',                       '~> 0.9.7'
   # gem 'minitest-focus',             '~> 1.1.0'
@@ -66,7 +66,7 @@ end
 group :development, :test do
   gem 'sqlite3' #to be added to below env when pg is added
 # gem 'debugger'
-  gem 'capybara-webkit',            '~> 1.1.1'
+  gem 'capybara-webkit', '~> 1.1.1'
   gem 'pry-rails',                  '~> 0.3.2'
   gem 'faker',                      '~> 1.2.0'
   gem 'database_cleaner',           '~> 1.2.0'
