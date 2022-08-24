@@ -8,9 +8,9 @@ gem 'coffee-rails',                 '~> 4.0.0'
 gem 'jquery-rails'
 gem 'figaro',                       '~> 0.7.0'
 gem 'devise',                       '~> 3.2.2'
-gem 'omniauth',                     '~> 1.2.1'
-gem 'omniauth-facebook',            '~> 1.6.0'
-gem 'omniauth-google-oauth2',       '~> 0.2.2'
+gem 'omniauth', '~> 2.0.0'
+gem 'omniauth-facebook', '~> 1.6.0'
+gem 'omniauth-google-oauth2', '~> 0.2.5'
 # gem 'paper_trail',
 # gem 'carrierwave',
 # gem 'rmagick',
