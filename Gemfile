@@ -22,7 +22,7 @@ gem 'nokogiri',                     '~> 1.6.1'
 gem 'mechanize' #,                   '~> 2.7.3'
 gem 'brakeman'
 gem 'minitest',                     '~> 5.3.3'
-gem 'minitest-rails',               '~> 2.0.0.beta1'
+gem 'minitest-rails', '~> 7.1.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
