@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails',                        '4.1.0'
+gem 'rails', '7.0.0'
 
-gem 'sass-rails',                   '~> 4.0.3'
+gem 'sass-rails', '~> 6.0.0'
 gem 'uglifier',                     '>= 1.3.0'
 gem 'coffee-rails',                 '~> 4.0.0'
 gem 'jquery-rails'
-gem 'figaro',                       '~> 0.7.0'
+gem 'figaro', '~> 1.0.0'
 gem 'devise',                       '~> 3.2.2'
 gem 'omniauth',                     '~> 1.2.1'
 gem 'omniauth-facebook',            '~> 1.6.0'
@@ -18,7 +18,7 @@ gem 'omniauth-google-oauth2',       '~> 0.2.2'
 # gem 'geocoder',
 # gem 'ember-rails',                  '~> 0.14.1'
 gem 'font-awesome-rails',           '~> 4.0.3'
-gem 'nokogiri',                     '~> 1.6.1'
+gem 'nokogiri', '~> 1.16.5'
 gem 'mechanize' #,                   '~> 2.7.3'
 gem 'brakeman'
 gem 'minitest',                     '~> 5.3.3'
@@ -30,7 +30,7 @@ gem 'minitest-rails',               '~> 2.0.0.beta1'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
